@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780">
+<rect width="1200" height="780" fill="#FFFFFF"/>
+<text x="60.0" y="72.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="28" font-weight="600" fill="#111827">核心流程 · Core Loop</text>
+<text x="60.0" y="102.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="14" font-weight="400" fill="#6B7280">设预算 → 记账 → 周期结算 → 结余去向 → 复盘，构成一次完整闭环</text>
+<text x="1140.0" y="72.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="600" fill="#0F766E" text-anchor="end">PRODUCT LOGIC  /  v1.21</text>
+<line x1="60.0" y1="120.0" x2="1140.0" y2="120.0" stroke="#E5E9EB" stroke-width="1"/>
+<rect x="61.0" y="171.0" width="200.0" height="176.0" rx="12" fill="#0F172A" opacity="0.045"/>
+<rect x="60.0" y="168.0" width="200.0" height="176.0" rx="12" fill="#FFFFFF"/>
+<rect x="60.0" y="168.0" width="200.0" height="4.0" rx="2" fill="#0F766E"/>
+<rect x="76.0" y="188.0" width="28.3" height="19.0" rx="10" fill="#E6F4F1"/>
+<text x="84.0" y="201.5" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="700" fill="#0F766E">01</text>
+<text x="76.0" y="234.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="16" font-weight="600" fill="#111827">设定周期预算</text>
+<circle cx="80.0" cy="260.0" r="2" fill="#B6C5C2"/>
+<text x="90.0" y="264.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#6B7280">总预算 → 日均额度</text>
+<circle cx="80.0" cy="284.0" r="2" fill="#B6C5C2"/>
+<text x="90.0" y="288.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#6B7280">固定支出独立预估</text>
+<circle cx="80.0" cy="308.0" r="2" fill="#B6C5C2"/>
+<text x="90.0" y="312.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#6B7280">可提前预排未来月</text>
+<line x1="266.0" y1="256.0" x2="278.0" y2="256.0" stroke="#0F766E" stroke-width="2"/>
+<path d="M274 251.0 L280 256.0 L274 261.0" stroke="#0F766E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="285.0" y="171.0" width="200.0" height="176.0" rx="12" fill="#0F172A" opacity="0.045"/>
+<rect x="284.0" y="168.0" width="200.0" height="176.0" rx="12" fill="#FFFFFF"/>
+<rect x="284.0" y="168.0" width="200.0" height="4.0" rx="2" fill="#0F766E"/>
+<rect x="300.0" y="188.0" width="28.3" height="19.0" rx="10" fill="#E6F4F1"/>
+<text x="308.0" y="201.5" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="700" fill="#0F766E">02</text>
+<text x="300.0" y="234.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="16" font-weight="600" fill="#111827">每天记一笔</text>
+<circle cx="304.0" cy="260.0" r="2" fill="#B6C5C2"/>
+<text x="314.0" y="264.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#6B7280">日常 / 大额 / 固定 / 收入</text>
+<circle cx="304.0" cy="284.0" r="2" fill="#B6C5C2"/>
+<text x="314.0" y="288.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#6B7280">心愿 / 借钱 / 补账清单</text>
+<circle cx="304.0" cy="308.0" r="2" fill="#B6C5C2"/>
+<text x="314.0" y="312.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#6B7280">按账户归集余额</text>
+<line x1="490.0" y1="256.0" x2="502.0" y2="256.0" stroke="#0F766E" stroke-width="2"/>
+<path d="M498 251.0 L504 256.0 L498 261.0" stroke="#0F766E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="509.0" y="171.0" width="200.0" height="176.0" rx="12" fill="#0F172A" opacity="0.045"/>
+<rect x="508.0" y="168.0" width="200.0" height="176.0" rx="12" fill="#FFFFFF"/>
+<rect x="508.0" y="168.0" width="200.0" height="4.0" rx="2" fill="#0F766E"/>
+<rect x="524.0" y="188.0" width="28.3" height="19.0" rx="10" fill="#E6F4F1"/>
+<text x="532.0" y="201.5" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="700" fill="#0F766E">03</text>
+<text x="524.0" y="234.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="16" font-weight="600" fill="#111827">周期结算</text>
+<circle cx="528.0" cy="260.0" r="2" fill="#B6C5C2"/>
+<text x="538.0" y="264.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#6B7280">自动算省下或花超</text>
+<circle cx="528.0" cy="284.0" r="2" fill="#B6C5C2"/>
+<text x="538.0" y="288.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#6B7280">四选一决定结余去向</text>
+<circle cx="528.0" cy="308.0" r="2" fill="#B6C5C2"/>
+<text x="538.0" y="312.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#6B7280">已记的账不受影响</text>
+<line x1="714.0" y1="256.0" x2="726.0" y2="256.0" stroke="#0F766E" stroke-width="2"/>
+<path d="M722 251.0 L728 256.0 L722 261.0" stroke="#0F766E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="733.0" y="171.0" width="200.0" height="176.0" rx="12" fill="#0F172A" opacity="0.045"/>
+<rect x="732.0" y="168.0" width="200.0" height="176.0" rx="12" fill="#FFFFFF"/>
+<rect x="732.0" y="168.0" width="200.0" height="4.0" rx="2" fill="#0F766E"/>
+<rect x="748.0" y="188.0" width="28.3" height="19.0" rx="10" fill="#E6F4F1"/>
+<text x="756.0" y="201.5" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="700" fill="#0F766E">04</text>
+<text x="748.0" y="234.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="16" font-weight="600" fill="#111827">结余去向</text>
+<circle cx="752.0" cy="260.0" r="2" fill="#B6C5C2"/>
+<text x="762.0" y="264.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#6B7280">并进本期可花</text>
+<circle cx="752.0" cy="284.0" r="2" fill="#B6C5C2"/>
+<text x="762.0" y="288.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#6B7280">奖励自己 / 存进目标</text>
+<circle cx="752.0" cy="308.0" r="2" fill="#B6C5C2"/>
+<text x="762.0" y="312.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#6B7280">留在存款里不动</text>
+<line x1="938.0" y1="256.0" x2="950.0" y2="256.0" stroke="#0F766E" stroke-width="2"/>
+<path d="M946 251.0 L952 256.0 L946 261.0" stroke="#0F766E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="957.0" y="171.0" width="200.0" height="176.0" rx="12" fill="#0F172A" opacity="0.045"/>
+<rect x="956.0" y="168.0" width="200.0" height="176.0" rx="12" fill="#FFFFFF"/>
+<rect x="956.0" y="168.0" width="200.0" height="4.0" rx="2" fill="#0F766E"/>
+<rect x="972.0" y="188.0" width="28.3" height="19.0" rx="10" fill="#E6F4F1"/>
+<text x="980.0" y="201.5" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="700" fill="#0F766E">05</text>
+<text x="972.0" y="234.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="16" font-weight="600" fill="#111827">复盘与调整</text>
+<circle cx="976.0" cy="260.0" r="2" fill="#B6C5C2"/>
+<text x="986.0" y="264.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#6B7280">总明细三段拆解</text>
+<circle cx="976.0" cy="284.0" r="2" fill="#B6C5C2"/>
+<text x="986.0" y="288.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#6B7280">每天超预算柱图</text>
+<circle cx="976.0" cy="308.0" r="2" fill="#B6C5C2"/>
+<text x="986.0" y="312.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#6B7280">实际 vs 预算 / 支出报告</text>
+<text x="60.0" y="400.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="14" font-weight="600" fill="#111827">关键设计决策</text>
+<rect x="60.0" y="420.0" width="346.0" height="148.0" rx="12" fill="#FFFFFF" stroke="#E5E9EB" stroke-width="1"/>
+<rect x="60.0" y="420.0" width="4.0" height="148.0" rx="2" fill="#0F766E"/>
+<text x="80.0" y="452.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15" font-weight="600" fill="#111827">按日发额度，而不是按月</text>
+<text x="80.0" y="484.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#6B7280">把整月总预算摊到每天，首页只回答</text>
+<text x="80.0" y="506.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#6B7280">「现在还能花」，降低记账的心理门槛。</text>
+<rect x="427.0" y="420.0" width="346.0" height="148.0" rx="12" fill="#FFFFFF" stroke="#E5E9EB" stroke-width="1"/>
+<rect x="427.0" y="420.0" width="4.0" height="148.0" rx="2" fill="#0F766E"/>
+<text x="447.0" y="452.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15" font-weight="600" fill="#111827">固定支出 / 借钱与配额解耦</text>
+<text x="447.0" y="484.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#6B7280">固定支出不占日配额；借钱只动存款</text>
+<text x="447.0" y="506.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#6B7280">余额、不写收支流水，避免把资产搬家</text>
+<text x="447.0" y="528.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#6B7280">算成消费。</text>
+<rect x="794.0" y="420.0" width="346.0" height="148.0" rx="12" fill="#FFFFFF" stroke="#E5E9EB" stroke-width="1"/>
+<rect x="794.0" y="420.0" width="4.0" height="148.0" rx="2" fill="#0F766E"/>
+<text x="814.0" y="452.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15" font-weight="600" fill="#111827">结余四选一，把省钱变成动作</text>
+<text x="814.0" y="484.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#6B7280">周期结束时强制处理结余：并进可花 /</text>
+<text x="814.0" y="506.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#6B7280">奖励 / 存进目标 / 留存款，让数据</text>
+<text x="814.0" y="528.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#6B7280">产生决策。</text>
+<text x="60.0" y="616.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="14" font-weight="600" fill="#111827">数据口径</text>
+<rect x="60.0" y="636.0" width="258.0" height="74.0" rx="10" fill="#F0F7F5"/>
+<text x="74.0" y="662.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13" font-weight="600" fill="#0F766E">现在还能花</text>
+<text x="74.0" y="686.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#374151">已发额度 − 日常实花 − 固定净额</text>
+<rect x="332.0" y="636.0" width="258.0" height="74.0" rx="10" fill="#F0F7F5"/>
+<text x="346.0" y="662.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13" font-weight="600" fill="#0F766E">结余</text>
+<text x="346.0" y="686.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#374151">已发额度 − 日常支出 − 固定省/超额</text>
+<rect x="604.0" y="636.0" width="258.0" height="74.0" rx="10" fill="#F0F7F5"/>
+<text x="618.0" y="662.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13" font-weight="600" fill="#0F766E">总积蓄</text>
+<text x="618.0" y="686.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#374151">期初快照 + 本周期收支 + 借贷净额</text>
+<rect x="876.0" y="636.0" width="258.0" height="74.0" rx="10" fill="#F0F7F5"/>
+<text x="890.0" y="662.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13" font-weight="600" fill="#0F766E">已攒</text>
+<text x="890.0" y="686.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#374151">起始日以来收入 − 支出（不绑账户）</text>
+<text x="1140.0" y="750.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#9CA3AF" text-anchor="end">数据为作品集演示样例，非真实账本</text>
+</svg>

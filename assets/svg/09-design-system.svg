@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920">
+<rect width="1200" height="920" fill="#F7F8F9"/>
+<text x="60.0" y="72.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="28" font-weight="600" fill="#111827">设计规范 · Design System</text>
+<text x="60.0" y="102.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="14" font-weight="400" fill="#6B7280">从小程序真实样式反解：色板 / 字阶 / 圆角 / 组件</text>
+<text x="1140.0" y="72.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="600" fill="#0F766E" text-anchor="end">375 × 812 pt  ·  750 rpx 设计稿</text>
+<line x1="60.0" y1="120.0" x2="1140.0" y2="120.0" stroke="#E5E9EB" stroke-width="1"/>
+<text x="60.0" y="156.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="14" font-weight="600" fill="#111827">01  色彩</text>
+<rect x="60.0" y="174.0" width="140.0" height="64.0" rx="8" fill="#0F766E" stroke="#E5E9EB" stroke-width="0.5"/>
+<text x="70.0" y="197.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">主色 / 主操作</text>
+<text x="70.0" y="222.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" opacity="0.85">#0F766E</text>
+<rect x="212.0" y="174.0" width="140.0" height="64.0" rx="8" fill="#DC2626" stroke="#E5E9EB" stroke-width="0.5"/>
+<text x="222.0" y="197.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">超支 / 危险</text>
+<text x="222.0" y="222.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" opacity="0.85">#DC2626</text>
+<rect x="364.0" y="174.0" width="140.0" height="64.0" rx="8" fill="#059669" stroke="#E5E9EB" stroke-width="0.5"/>
+<text x="374.0" y="197.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">结余 / 达成</text>
+<text x="374.0" y="222.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" opacity="0.85">#059669</text>
+<rect x="516.0" y="174.0" width="140.0" height="64.0" rx="8" fill="#B45309" stroke="#E5E9EB" stroke-width="0.5"/>
+<text x="526.0" y="197.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">提醒 / 定期</text>
+<text x="526.0" y="222.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" opacity="0.85">#B45309</text>
+<rect x="668.0" y="174.0" width="140.0" height="64.0" rx="8" fill="#1D4ED8" stroke="#E5E9EB" stroke-width="0.5"/>
+<text x="678.0" y="197.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">收入 / 计划</text>
+<text x="678.0" y="222.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" opacity="0.85">#1D4ED8</text>
+<rect x="820.0" y="174.0" width="140.0" height="64.0" rx="8" fill="#F4F5F7" stroke="#E5E9EB" stroke-width="0.5"/>
+<text x="830.0" y="197.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="600" fill="#111827">页面背景</text>
+<text x="830.0" y="222.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#111827" opacity="0.85">#F4F5F7</text>
+<rect x="972.0" y="174.0" width="140.0" height="64.0" rx="8" fill="#111827" stroke="#E5E9EB" stroke-width="0.5"/>
+<text x="982.0" y="197.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">主文字</text>
+<text x="982.0" y="222.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#FFFFFF" opacity="0.85">#111827</text>
+<text x="60.0" y="292.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="14" font-weight="600" fill="#111827">02  字阶</text>
+<text x="60.0" y="360.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="48" font-weight="600" fill="#0F766E">¥2,184.60</text>
+<text x="460.0" y="358.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF" text-anchor="end">48 / 600</text>
+<line x1="60.0" y1="370.0" x2="460.0" y2="370.0" stroke="#EDF0F1" stroke-width="1"/>
+<text x="60.0" y="422.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="32" font-weight="600" fill="#111827">¥6,502.60</text>
+<text x="460.0" y="420.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF" text-anchor="end">32 / 600</text>
+<line x1="60.0" y1="432.0" x2="460.0" y2="432.0" stroke="#EDF0F1" stroke-width="1"/>
+<text x="60.0" y="484.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="18" font-weight="600" fill="#111827">¥86,420.50</text>
+<text x="460.0" y="482.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF" text-anchor="end">18 / 600</text>
+<line x1="60.0" y1="494.0" x2="460.0" y2="494.0" stroke="#EDF0F1" stroke-width="1"/>
+<text x="60.0" y="546.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15" font-weight="600" fill="#111827">日常支出</text>
+<text x="460.0" y="544.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF" text-anchor="end">15 / 600</text>
+<line x1="60.0" y1="556.0" x2="460.0" y2="556.0" stroke="#EDF0F1" stroke-width="1"/>
+<text x="620.0" y="360.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="14" font-weight="400" fill="#111827">预期收入 · 11月工资</text>
+<text x="1020.0" y="358.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF" text-anchor="end">14 / 400</text>
+<line x1="620.0" y1="370.0" x2="1020.0" y2="370.0" stroke="#EDF0F1" stroke-width="1"/>
+<text x="620.0" y="422.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13" font-weight="400" fill="#374151">本期还没设预算</text>
+<text x="1020.0" y="420.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF" text-anchor="end">13 / 400</text>
+<line x1="620.0" y1="432.0" x2="1020.0" y2="432.0" stroke="#EDF0F1" stroke-width="1"/>
+<text x="620.0" y="484.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#6B7280">预估 ¥2,300 · 6 项</text>
+<text x="1020.0" y="482.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF" text-anchor="end">12 / 400</text>
+<line x1="620.0" y1="494.0" x2="1020.0" y2="494.0" stroke="#EDF0F1" stroke-width="1"/>
+<text x="620.0" y="546.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#9CA3AF">截至 11.10</text>
+<text x="1020.0" y="544.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF" text-anchor="end">11 / 400</text>
+<line x1="620.0" y1="556.0" x2="1020.0" y2="556.0" stroke="#EDF0F1" stroke-width="1"/>
+<text x="60.0" y="592.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="14" font-weight="600" fill="#111827">03  圆角 / 间距</text>
+<rect x="60.0" y="612.0" width="100.0" height="56.0" rx="4" fill="#E6F4F2" stroke="#0F766E" stroke-width="1"/>
+<text x="110.0" y="646.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="600" fill="#0F766E" text-anchor="middle">r = 4</text>
+<rect x="178.0" y="612.0" width="100.0" height="56.0" rx="8" fill="#E6F4F2" stroke="#0F766E" stroke-width="1"/>
+<text x="228.0" y="646.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="600" fill="#0F766E" text-anchor="middle">r = 8</text>
+<rect x="296.0" y="612.0" width="100.0" height="56.0" rx="12" fill="#E6F4F2" stroke="#0F766E" stroke-width="1"/>
+<text x="346.0" y="646.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="600" fill="#0F766E" text-anchor="middle">r = 12</text>
+<rect x="414.0" y="612.0" width="100.0" height="56.0" rx="16" fill="#E6F4F2" stroke="#0F766E" stroke-width="1"/>
+<text x="464.0" y="646.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="600" fill="#0F766E" text-anchor="middle">r = 16</text>
+<rect x="532.0" y="612.0" width="100.0" height="56.0" rx="28" fill="#E6F4F2" stroke="#0F766E" stroke-width="1"/>
+<text x="582.0" y="646.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="600" fill="#0F766E" text-anchor="middle">r = 28</text>
+<circle cx="660.0" cy="620.0" r="3" fill="#0F766E"/>
+<text x="674.0" y="624.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13" font-weight="400" fill="#374151">页面左右边距  12 pt</text>
+<circle cx="660.0" cy="646.0" r="3" fill="#0F766E"/>
+<text x="674.0" y="650.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13" font-weight="400" fill="#374151">卡片内边距  16 pt</text>
+<circle cx="660.0" cy="672.0" r="3" fill="#0F766E"/>
+<text x="674.0" y="676.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13" font-weight="400" fill="#374151">卡片间距  12 pt</text>
+<circle cx="660.0" cy="698.0" r="3" fill="#0F766E"/>
+<text x="674.0" y="702.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13" font-weight="400" fill="#374151">卡片圆角  12 pt</text>
+<circle cx="660.0" cy="724.0" r="3" fill="#0F766E"/>
+<text x="674.0" y="728.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13" font-weight="400" fill="#374151">胶囊圆角  999 pt</text>
+<circle cx="660.0" cy="750.0" r="3" fill="#0F766E"/>
+<text x="674.0" y="754.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13" font-weight="400" fill="#374151">状态栏 44 / 导航栏 44 / tabBar 83</text>
+<text x="60.0" y="802.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="14" font-weight="600" fill="#111827">04  组件</text>
+<rect x="60.0" y="822.0" width="130.0" height="40.0" rx="8" fill="#0F766E"/>
+<text x="125.0" y="847.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF" text-anchor="middle">保存</text>
+<rect x="204.0" y="822.0" width="130.0" height="40.0" rx="8" fill="#EEF2F1"/>
+<text x="269.0" y="847.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15" font-weight="500" fill="#0F766E" text-anchor="middle">稍后再存</text>
+<rect x="348.0" y="822.0" width="74.0" height="28.0" rx="14" fill="#0F766E"/>
+<text x="385.0" y="841.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13" font-weight="500" fill="#FFFFFF" text-anchor="middle">支出</text>
+<rect x="432.0" y="822.0" width="74.0" height="28.0" rx="14" fill="#F1F5F4"/>
+<text x="469.0" y="841.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="middle">收入</text>
+<rect x="520.0" y="822.0" width="160.0" height="40.0" rx="8" fill="#F4F5F7"/>
+<text x="532.0" y="847.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13" font-weight="400" fill="#9CA3AF">备注（可不填）</text>
+<rect x="694.0" y="836.0" width="150.0" height="6.0" rx="3" fill="#EEF2F1"/>
+<rect x="694.0" y="836.0" width="56.0" height="6.0" rx="3" fill="#0F766E"/>
+<text x="694.0" y="862.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="400" fill="#9CA3AF">21%</text>
+<rect x="866.0" y="828.0" width="86.0" height="24.0" rx="12" fill="rgba(5,150,105,0.10)"/>
+<text x="909.0" y="844.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="500" fill="#059669" text-anchor="middle">省下 ¥120</text>
+<rect x="966.0" y="828.0" width="76.0" height="24.0" rx="12" fill="none" stroke="#0F766E" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="1004.0" y="844.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#0F766E" text-anchor="middle">＋ 新增</text>
+</svg>
