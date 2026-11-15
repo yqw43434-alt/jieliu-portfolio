@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920">
 <rect width="1200" height="920" fill="#F7F8F9"/>
-<text x="60.0" y="72.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="28" font-weight="600" fill="#111827">设计规范 · Design System</text>
+<text x="60.0" y="72.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="28" font-weight="600" fill="#111827">设计规范</text>
 <text x="60.0" y="102.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="14" font-weight="400" fill="#6B7280">从小程序真实样式反解：色板 / 字阶 / 圆角 / 组件</text>
 <text x="1140.0" y="72.0" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12" font-weight="600" fill="#0F766E" text-anchor="end">375 × 812 pt  ·  750 rpx 设计稿</text>
 <line x1="60.0" y1="120.0" x2="1140.0" y2="120.0" stroke="#E5E9EB" stroke-width="1"/>
