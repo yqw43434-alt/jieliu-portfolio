@@ -1,19 +1,19 @@
 # 节流记账本 · UI 作品集
 
-微信小程序「节流记账本」的高保真矢量 UI 还原稿，用于产品设计作品集展示。
+微信小程序「节流记账本」的界面矢量稿与产品案例，用于求职投递。
 
-两个入口：
+两个入口，主次分明：
 
-- 产品案例（面试投递用）：https://yqw43434-alt.github.io/jieliu-portfolio/case-study/
-- 界面稿（附录，矢量素材）：https://yqw43434-alt.github.io/jieliu-portfolio/
+- 产品案例（主件，简历里挂这条）：https://yqw43434-alt.github.io/jieliu-portfolio/case-study/
+- 界面稿（附录）：https://yqw43434-alt.github.io/jieliu-portfolio/ ，顶部有入口指回案例页
 
 ## 内容
 
 | 路径 | 说明 |
 | --- | --- |
-| `case-study/index.html` | 产品案例：背景、做法、六条账务口径、界面、验证、复盘，长文版式 |
-| `case-study/节流记账本-产品案例研究.pdf` | 同一篇的 4 页 PDF 版，可作为投递附件 |
-| `index.html` | 单文件离线界面稿：11 张 SVG 全部内联，点图放大，每张可单独下载源文件；也可下载后双击本地打开 |
+| `case-study/index.html` | 产品案例：问题、四个判断与没做的、界面、验证、边界、复盘。按产品经理岗取舍，工程细节不写 |
+| `case-study/节流记账本-产品案例研究.pdf` | 同一篇的 3 页 PDF 版，可作为投递附件 |
+| `index.html` | 界面稿附录：11 张 SVG 全部内联，点图放大，每张可单独下载源文件；顶部有产品案例入口 |
 | `assets/svg/` | 11 张矢量源文件，可直接导入 Figma / 墨刀 |
 | `assets/png/` | 11 张 PNG 预览（8 屏为 @2x，750 × 1624） |
 | `节流记账本-UI素材包.zip` | 界面稿与单文件页的打包下载 |
