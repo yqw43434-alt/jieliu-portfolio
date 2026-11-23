@@ -4,156 +4,233 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>节流记账本 · 产品案例</title>
-<meta name="description" content="微信小程序「节流记账本」产品案例：把周期预算折算成今天还能花多少，以及为此做过的几个判断和取舍。">
+<meta name="description" content="微信小程序「节流记账本」产品案例：把月度预算折成每天能花的钱，以及为此做的判断、取舍与验证。">
 <style>
-:root{--ink:#1b1b1b;--body:#3a3a3a;--muted:#767676;--line:#e5e5e5;--primary:#0f766e}
+:root{--ink:#16211f;--body:#3b4441;--muted:#7a8581;--line:#dfe5e2;--accent:#0f766e;--wash:#f2f7f5}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:64px}
+html{scroll-behavior:smooth;scroll-padding-top:62px}
 body{margin:0;background:#fff;color:var(--body);
  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
- font-size:16px;line-height:1.9;-webkit-font-smoothing:antialiased}
-a{color:var(--primary);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;text-decoration-color:#bcd8d3}
-a:hover{text-decoration-color:var(--primary)}
-.wrap{max-width:720px;margin:0 auto;padding:0 28px}
-nav{border-bottom:1px solid var(--line)}
-nav .wrap{display:flex;gap:20px;height:52px;align-items:center;overflow-x:auto;white-space:nowrap;font-size:13px}
-nav a{color:var(--muted);text-decoration:none}
-nav a:hover{color:var(--ink);text-decoration:none}
-header{padding:64px 0 36px;border-bottom:1px solid var(--line)}
-h1{font-size:36px;line-height:1.3;font-weight:600;color:var(--ink);margin:0 0 20px;letter-spacing:-.3px}
-.lead{font-size:17px;line-height:1.85;color:var(--ink);margin:0 0 16px}
-.byline{font-size:13px;color:var(--muted);margin:0}
-section{padding:44px 0;border-bottom:1px solid var(--line)}
-h2{font-size:21px;font-weight:600;color:var(--ink);margin:0 0 22px;line-height:1.5}
-h3{font-size:16px;font-weight:600;color:var(--ink);margin:32px 0 8px;line-height:1.6}
-p{margin:0 0 16px}
-strong{color:var(--ink);font-weight:600}
-.small{font-size:13px;color:var(--muted);line-height:1.8}
-.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:26px 0 18px}
-.shots figure{margin:0}
-.shots img{width:100%;display:block;border:1px solid var(--line);border-radius:5px}
-.shots figcaption{font-size:12px;color:var(--muted);line-height:1.7;margin-top:8px}
-.shots figcaption b{display:block;color:var(--ink);font-weight:600;font-size:13px;margin-bottom:2px}
-footer{padding:32px 0 64px;font-size:13px;color:var(--muted)}
-footer a{margin-left:14px}
-@media(max-width:640px){
+ font-size:16px;line-height:1.85;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid #bcd8d3}
+a:hover{border-bottom-color:var(--accent)}
+.wrap{max-width:1000px;margin:0 auto;padding:0 36px}
+
+.top{border-bottom:1px solid var(--line)}
+.top .wrap{height:56px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-size:13px;font-weight:600;color:var(--ink);white-space:nowrap}
+.navlinks{display:flex;gap:18px;font-size:13px;color:var(--muted);overflow-x:auto;white-space:nowrap}
+.navlinks a{color:var(--muted);border:0}
+.navlinks a:hover{color:var(--ink)}
+
+.hero{padding:56px 0 38px;border-bottom:1px solid var(--line)}
+.kicker{font-size:12px;letter-spacing:.12em;color:var(--accent);font-weight:600;margin:0 0 18px}
+.hero h1{font-size:46px;line-height:1.2;font-weight:650;color:var(--ink);margin:0 0 20px;letter-spacing:-1px}
+.hero .claim{font-size:22px;line-height:1.65;color:var(--ink);margin:0 0 18px;font-weight:500}
+.hero .claim em{font-style:normal;color:var(--accent)}
+.hero .line{font-size:13px;color:var(--muted);margin:0}
+
+.tldr{margin:28px 0 0;padding:24px 28px;background:var(--wash);border-left:4px solid var(--accent)}
+.tldr .lab{font-size:12px;color:var(--accent);font-weight:600;margin:0 0 8px;letter-spacing:.06em}
+.tldr p{font-size:16px;line-height:1.8;color:var(--ink);margin:0}
+
+.row{display:grid;grid-template-columns:150px 1fr;gap:36px;padding:38px 0;border-bottom:1px solid var(--line)}
+.row-head{padding-top:2px}
+.row-head .num{display:block;font-size:13px;color:var(--accent);font-weight:600;letter-spacing:.08em;margin-bottom:2px}
+.row-head h2{font-size:19px;font-weight:600;color:var(--ink);margin:0;line-height:1.5}
+.row-body p{margin:0 0 15px}
+.row-body p:last-child{margin-bottom:0}
+.row-body .fine{font-size:13px;color:var(--muted)}
+
+.decision{display:grid;grid-template-columns:34px 1fr;gap:14px;padding:19px 0;border-bottom:1px dashed var(--line)}
+.decision:first-child{padding-top:0}
+.decision:last-child{border-bottom:0;padding-bottom:0}
+.decision .dn{font-size:23px;font-weight:650;color:var(--accent);line-height:1.25;opacity:.75}
+.decision h3{font-size:17px;font-weight:600;color:var(--ink);margin:0 0 7px;line-height:1.55}
+.decision p{margin:0 0 8px}
+.cost{font-size:14px;color:var(--muted);margin:0}
+.cost b{color:var(--ink);font-weight:600}
+
+.annot{display:grid;grid-template-columns:180px 1fr;gap:26px;align-items:start;margin:0 0 28px}
+.annot:last-of-type{margin-bottom:0}
+.annot img{width:100%;display:block;border:1px solid var(--line);border-radius:4px}
+.annot .note b{display:block;color:var(--ink);font-size:15px;margin:2px 0 6px}
+.annot .note p{font-size:14px;margin:0;color:var(--body)}
+
+footer{padding:30px 0 60px;font-size:13px;color:var(--muted)}
+footer a{margin-left:16px}
+
+@media(max-width:760px){
  .wrap{padding:0 20px}
- header{padding:44px 0 28px}
- h1{font-size:29px}
- .lead{font-size:16px}
- section{padding:34px 0}
- .shots{grid-template-columns:1fr;gap:26px}
- .shots img{max-width:280px}
+ .top .wrap{height:auto;min-height:52px;flex-direction:column;align-items:flex-start;justify-content:center;gap:6px;padding:10px 0}
+ .navlinks{width:100%;gap:14px}
+ .hero{padding:40px 0 30px}
+ .hero h1{font-size:34px}
+ .hero .claim{font-size:18px}
+ .row{grid-template-columns:1fr;gap:12px;padding:30px 0}
+ .row-head{display:flex;align-items:baseline;gap:10px}
+ .row-head .num{margin:0}
+ .annot{grid-template-columns:1fr;gap:14px}
+ .annot img{max-width:200px}
 }
 @media print{
- nav{display:none}
+ .top{display:none}
  body{font-size:10pt;line-height:1.6}
  .wrap{max-width:none;padding:0 10mm}
- header{padding:0 0 14px}
- h1{font-size:24pt;margin-bottom:10px}
- .lead{font-size:12pt;margin-bottom:10px}
- section{padding:16px 0}
- h2{font-size:15pt;margin-bottom:10px}
- h3{font-size:11pt;margin:14px 0 5px}
- p{margin-bottom:8px}
- .shots{gap:10px;margin:14px 0}
- .shots figure,.shots img{break-inside:avoid}
- .shots figcaption{font-size:8pt}
- .shots figcaption b{font-size:9pt}
- a{color:var(--ink);text-decoration:none}
- footer{padding:14px 0 0}
+ .hero{padding:0 0 12px;border-bottom:1px solid var(--line)}
+ .hero h1{font-size:24pt;margin-bottom:8px}
+ .hero .claim{font-size:12pt;margin-bottom:8px}
+ .tldr{margin-top:12px;padding:10px 14px}
+ .tldr p{font-size:10pt}
+ .row{display:block;padding:14px 0;break-inside:avoid}
+ .row-head{margin-bottom:8px}
+ .row-head h2{font-size:14pt}
+ .decision{padding:10px 0}
+ .annot{grid-template-columns:110px 1fr;gap:14px;margin-bottom:14px;break-inside:avoid}
+ .annot img{max-width:110px}
+ footer{padding:12px 0 0}
+ a{color:var(--ink);border:0}
 }
 </style>
 </head>
 <body>
 
-<nav><div class="wrap">
- <a href="#problem">问题</a>
- <a href="#decisions">判断</a>
- <a href="#screens">界面</a>
- <a href="#validation">验证</a>
- <a href="#boundary">边界</a>
- <a href="#retro">复盘</a>
- <a href="#appendix">附件</a>
-</div></nav>
+<div class="top"><div class="wrap">
+ <span class="brand">节流记账本 · 产品案例</span>
+ <div class="navlinks">
+  <a href="#problem">问题</a><a href="#scope">目标与边界</a><a href="#decisions">关键判断</a>
+  <a href="#screens">界面</a><a href="#validation">验证</a><a href="#retro">复盘</a><a href="#appendix">附件</a>
+ </div>
+</div></div>
 
 <div class="wrap">
 
-<header>
+<header class="hero">
+ <p class="kicker">PRODUCT CASE STUDY / 2026.10</p>
  <h1>节流记账本</h1>
- <p class="lead">一个把周期预算折算成「今天还能花多少」的微信小程序。产品定义、交互、开发、测试和发布由我一人完成，目前是我自己每天在用的账本。</p>
- <p class="byline">个人项目 · 2026.10–11 · 微信小程序 · 自用，未推广</p>
+ <p class="claim">把月度预算折成每天能花的钱。<br>首页只回答一个问题：<em>现在还能花多少。</em></p>
+ <p class="line">个人项目 · 2026.10–11 · 微信小程序 · 产品定义、交互、开发、测试由我一人完成</p>
+ <div class="tldr">
+  <p class="lab">先看结论</p>
+  <p>这是一个自用中的个人项目，没有推广，也没有用户增长数据。它能证明的是：我能从一个真实场景出发定义问题、定下口径、做取舍，并在一个人、没有外部用户的条件下验证自己的判断。它不能证明增长和商业化——这部分我不写估算。</p>
+ </div>
 </header>
 
-<section id="problem">
- <h2>问题</h2>
- <p>我自己是第一个用户。几个存款账户，房租、宽带、话费按月扣，收入不按月发，账经常隔两天才补。</p>
- <p>常见的记账工具月底给一张分类饼图，告诉我餐饮花了多少。中午要不要买那杯咖啡，它不回答。给一个整月预算也没用，月初宽松、月末紧绷，跟实际花钱的节奏对不上。房租一交，当月额度直接见底，剩下二十天全是红的；季付、年付的账单更没法看，不缴费的月是零，缴费的月一次记三个月。</p>
- <p>所以这个产品只做一件事：把预算折成今天能花的数，让它每天都能拿来做决定。别的功能都围绕这一句。</p>
-</section>
-
-<section id="decisions">
- <h2>判断</h2>
-
- <h3>首页只放一个数</h3>
- <p>最早是整月预算减已花，月底算总账。数字没错，但帮不上中午那个决定。改成按天发额度后，首页这个数每天变一次，能直接用。代价是跨月周期、周期切换、上期结余并进来都得处理，同一类数字只能留一个计算出口。</p>
-
- <h3>固定支出和借钱不进日常额度</h3>
- <p>所有支出统一扣额度最好写，但房租一交，日常额度就废了。固定支出现在单走一套账，季付、年付按 N 个月摊进每月，非缴费月不可缴，预估和实付的差额在缴费月一次结清。代价是界面上出现两种「支出」，文案得说清哪个是哪个，不然会被当成漏记。</p>
- <p>借钱同理。借出记支出、借入记收入看着顺，可资产搬家算成消费，会把「今年省了多少」弄脏。单独建台账，只动存款余额，不写收支流水。多一个页面，值得。</p>
-
- <h3>结余必须选去处</h3>
- <p>月底显示一行「本月结余」，用户什么也不用做，这个数就白算了。现在省了四选一、超了三选一，弹窗里不写劝人省钱的话。选完会改下期配额基数，月底这一步会真的改变下个月。</p>
- <p>结算记录是落库快照，事后改账会跟它对不上，所以又补了一层重算。这是当时没想到的代价。</p>
-
- <h3>数字只有一个出口</h3>
- <p>这个项目最难的不是界面，是同一个「余额」在四处含义不同：周期末预估、截至今天、周期结转、攒钱目标。各写一套公式，最后一定和银行卡对不上。我立了一条规矩：余额类数字从同一处出，谁也不许另算。</p>
- <p>界面上「现在余额」和「周期末预估」也分开，未来才到账的钱不算进今天。页面上的词定死，期初存款不叫「上月结余」，免得被当成一笔流水。这些不是措辞讲究，是账会不会算错的边界。</p>
-
- <h3>没做的</h3>
- <p>写在这儿，省得被当成遗漏：多人共享账本、银行自动同步、自动分类、自动计息、旅行模式、新手引导。前两个会掀掉现有账务口径，后几个的假设还没验证。</p>
- <p>需求按小批次排，每条先写现状、为什么改、改完怎么退回来，想清楚才动手。</p>
-</section>
-
-<section id="screens">
- <h2>界面</h2>
- <p>主流程是设周期和预算、每天发额度、记一笔、周期结算、给结余选去处。选完反写下期配额，回到按天发额度。</p>
- <div class="shots">
-  <figure><img src="../assets/png/01-home.png" alt="首页：现在还能花"><figcaption><b>首页</b>整页只回答这一个问题。</figcaption></figure>
-  <figure><img src="../assets/png/02-add-entry.png" alt="记一笔：四种形态与暂存清单"><figcaption><b>记一笔</b>支出、收入、心愿、借钱共用一个弹层；补记的账可以先暂存，再一起存。</figcaption></figure>
-  <figure><img src="../assets/png/08-settle.png" alt="周期结算：结余四选一"><figcaption><b>周期结算</b>省下来的预算必须选一个去处。</figcaption></figure>
+<section id="problem" class="row">
+ <div class="row-head"><span class="num">01</span><h2>问题</h2></div>
+ <div class="row-body">
+  <p>常见的记账工具给的是事后统计。月底一张分类饼图告诉你餐饮花了多少，但中午要不要买那杯咖啡，它不回答。</p>
+  <p>整月预算也不好用：月初宽松、月末紧绷，跟实际花钱的节奏对不上。房租一交，当月额度直接见底，剩下二十天全是红的。季付、年付的账单按自然月记更没法看——不缴费的月是零，缴费的月一次记三个月。</p>
+  <p>要解决的问题不是「记没记住花了多少」，而是「现在还能花多少」。前者是记录问题，后者是决策问题，两者的产品形态完全不同。</p>
  </div>
- <p class="small">其余 8 屏、11 张可导入 Figma / 墨刀的矢量稿在<a href="../">完整界面稿</a>。画面里的金额、日期、账户名是演示数据。</p>
 </section>
 
-<section id="validation">
- <h2>验证</h2>
- <p>账是真的，我每天记。对不上银行卡时我先查口径，不改界面。有几类问题是这么翻出来的：未来到账的钱被算进了「现在余额」；同一笔收入在明细里显示、总积蓄里却不见；11 月 12 日的钱被标成 10 月 31 日。都是定义没说清，不是显示错。</p>
- <p>需求多数来自使用现场。指图说「这条缝里露出了首页卡片」，质疑「11.12 的钱凭什么标 10.31」，要求「一个按钮把补记的账全存完」。每条都留了根因。</p>
- <p>口径一改就跑一遍离线用例，覆盖配额、结转、结算、导出。这是我自己定的纪律，不是团队流程。</p>
+<section id="scope" class="row">
+ <div class="row-head"><span class="num">02</span><h2>目标与边界</h2></div>
+ <div class="row-body">
+  <p>目标只有一个：给用户一个每天都能用的数字，在做消费决定时可以直接参考。其余功能都围绕这句话，回答不了这个问题的，先不做。</p>
+  <p>明确不做：多人共享账本、银行自动同步、自动分类、自动计息、旅行模式、新手引导。前两个会改变产品的基本假设——一个人管自己的钱，和多人共用一个账本，账务规则完全不同；后几个的验证成本超过现阶段能承受的。</p>
+  <p>需求按小批次排。每条先写清现状、为什么改、改完怎么退回来，想清楚才动手。这条纪律是我一个人给自己定的，不是团队流程。</p>
+ </div>
 </section>
 
-<section id="boundary">
- <h2>边界</h2>
- <p>这份案例能说明的：一个人把一个模糊的使用场景，收敛成一条可执行的口径，为它做了取舍，也承担了代价。难点在定义和一致性，不在页面数量。</p>
- <p>不能说明的也直说。自用，未推广，累计用户、留存、营收、是否提交正式版审核，都没有可核验数据，这里不填估算。小程序目前是开发版本和体验版。面试要追问细节，仓库和需求台账可以当场打开核对。</p>
+<section id="decisions" class="row">
+ <div class="row-head"><span class="num">03</span><h2>关键判断</h2></div>
+ <div class="row-body">
+
+  <article class="decision">
+   <div class="dn">01</div>
+   <div>
+    <h3>首页只放一个数</h3>
+    <p>最早是整月预算减已花、月底算总账。数字没错，但帮不上中午那个决定。改成按天发额度之后，首页这个数每天变一次，拿过来就能用。</p>
+    <p class="cost"><b>代价：</b>跨月周期、周期切换、上期结余并进来都要处理，同一类数字只能留一个计算出口。</p>
+   </div>
+  </article>
+
+  <article class="decision">
+   <div class="dn">02</div>
+   <div>
+    <h3>固定支出和借钱不占日常额度</h3>
+    <p>所有支出统一扣额度最好写，但房租一交，日常额度就废了。固定支出现在单走一套账，季付、年付按 N 个月摊进每月，非缴费月不可缴，差额在缴费月一次结清。借钱同理：借出借入是资产搬家，记成消费会把「今年省了多少」弄脏，所以只动存款余额，不写收支流水。</p>
+    <p class="cost"><b>代价：</b>界面上出现两种「支出」，文案得说清哪个是哪个；多一张台账页。</p>
+   </div>
+  </article>
+
+  <article class="decision">
+   <div class="dn">03</div>
+   <div>
+    <h3>结余必须选一个去处</h3>
+    <p>月底显示一行「本月结余」，用户什么也不用做，这个数就白算了。现在省了四选一、超了三选一，弹窗里不写劝人省钱的话。选完会改下期配额基数，月底这一步会真的改变下个月。</p>
+    <p class="cost"><b>代价：</b>结算记录是快照，事后改账会跟它对不上，后来补了一层幂等重算。</p>
+   </div>
+  </article>
+
+  <article class="decision">
+   <div class="dn">04</div>
+   <div>
+    <h3>数字只有一个出口</h3>
+    <p>同一个「余额」在周期末预估、截至今天、周期结转、攒钱目标四处含义不同。各写一套公式，最后一定和银行卡对不上。我立了一条规矩：余额类数字从同一处出，页面上的词定死——期初存款不叫「上月结余」，免得被当成一笔流水。</p>
+    <p class="cost"><b>代价：</b>每加一个页面都要先确认口径归属，比直接写公式慢，但三十天高频改下来没出过账目不一致。</p>
+   </div>
+  </article>
+
+ </div>
 </section>
 
-<section id="retro">
- <h2>复盘</h2>
- <p>判断错的比修好的值得写。补账入口改了四版：双胶囊、加标签、删标签并入清单、合并保存。回头看是没先定「入口放哪、一次存几笔」就动手。借出借入也一样，台账页做完了，设置页入口后来撤掉，这个页面现在接不到用户路径上——功能做完不等于用户能用上。</p>
- <p>「余额截至」那次，我把快照基准日和显示日期混在一格，被当场问住。不是代码错，是定义没说清。</p>
- <p>接着做，第一件事不是加功能。找三五个不是我的人真用一周，看「按天发额度」这个假设别人认不认。旅行模式、多人 AA、新手引导都压着，没验证之前不排期。</p>
+<section id="screens" class="row">
+ <div class="row-head"><span class="num">04</span><h2>界面</h2></div>
+ <div class="row-body">
+  <div class="annot">
+   <img src="../assets/png/01-home.png" alt="首页：现在还能花">
+   <div class="note"><b>首页 · 回答一个问题</b>
+    <p>整页只放「现在还能花」这个数。固定支出、心愿进度都退到次级位置，不跟它抢注意力。</p>
+   </div>
+  </div>
+  <div class="annot">
+   <img src="../assets/png/02-add-entry.png" alt="记一笔：四种形态与暂存清单">
+   <div class="note"><b>记一笔 · 补账先暂存</b>
+    <p>支出、收入、心愿、借钱共用一个弹层。真实场景里账经常隔两天才补，所以补记的账可以先暂存，再一次性存完。</p>
+   </div>
+  </div>
+  <div class="annot">
+   <img src="../assets/png/08-settle.png" alt="周期结算：结余四选一">
+   <div class="note"><b>周期结算 · 给选项不给结论</b>
+    <p>省下来的预算必须选一个去处。选完反写下期配额，回到按天发额度。</p>
+   </div>
+  </div>
+  <p class="fine">其余 8 屏、11 张可导入 Figma / 墨刀的矢量稿在<a href="../">完整界面稿</a>。画面里的金额、日期、账户名是演示数据。</p>
+ </div>
 </section>
 
-<section id="appendix">
- <h2>附件</h2>
- <p><a href="../">完整界面稿</a>　<a href="../节流记账本-UI作品集.pdf">界面稿 PDF</a>　<a href="节流记账本-产品案例研究.pdf">这一篇的 PDF</a>　<a href="https://github.com/yqw43434-alt/jieliu-portfolio">源文件仓库</a></p>
- <p class="small">界面稿是矢量重绘，不是截图。事实部分来自需求台账和提交记录。联系方式见简历。</p>
+<section id="validation" class="row">
+ <div class="row-head"><span class="num">05</span><h2>验证</h2></div>
+ <div class="row-body">
+  <p>验证方式是拿它记真实的账，再和银行卡对账。对不上时我先查口径，不改界面。有几类问题就是这么翻出来的：未来到账的钱被算进了「现在余额」；同一笔收入在明细里显示、总积蓄里却不见；11 月 12 日的钱被标成 10 月 31 日。都是定义没说清，不是显示错。</p>
+  <p>需求多数来自使用现场。指图说「这条缝里露出了首页卡片」，质疑「11.12 的钱凭什么标 10.31」，要求「一个按钮把补记的账全存完」。每条都留了根因。</p>
+  <p>口径一改就跑一遍离线用例，覆盖配额、结转、结算、导出。这是给自己定的纪律，不是团队流程。</p>
+  <p><b>验证的局限：</b>只有我一个人在用。按天发额度这个假设，别人认不认，还没有验证。这是这个项目最需要补的一块。</p>
+ </div>
+</section>
+
+<section id="retro" class="row">
+ <div class="row-head"><span class="num">06</span><h2>复盘</h2></div>
+ <div class="row-body">
+  <p>判断错的比修好的值得写。补账入口改了四版：双胶囊、加标签、删标签并入清单、合并保存。回头看是没先定「入口放哪、一次存几笔」就动手。借出借入也一样，台账页做完了，设置页入口后来撤掉，这个页面现在接不到用户路径上——功能做完不等于用户能用上。</p>
+  <p>「余额截至」那次，我把快照基准日和显示日期混在一格，被当场问住。不是代码错，是定义没说清。</p>
+  <p>接着做，第一件事不是加功能。找三五个不是我的人真用一周，看「按天发额度」这个假设别人认不认。旅行模式、多人 AA、新手引导都压着，没验证之前不排期。</p>
+ </div>
+</section>
+
+<section id="appendix" class="row">
+ <div class="row-head"><span class="num">07</span><h2>附件</h2></div>
+ <div class="row-body">
+  <p><a href="../">完整界面稿</a>　<a href="../节流记账本-UI作品集.pdf">界面稿 PDF</a>　<a href="节流记账本-产品案例研究.pdf">这一篇的 PDF</a>　<a href="https://github.com/yqw43434-alt/jieliu-portfolio">源文件仓库</a></p>
+  <p class="fine">界面稿是矢量重绘，不是截图。事实部分来自需求台账和提交记录。联系方式见简历。</p>
+ </div>
 </section>
 
 <footer>
- <p>节流记账本 · 2026.10 起　<a href="../">返回界面稿总览</a></p>
+ 节流记账本 · 2026.10 起　<a href="../">返回界面稿总览</a>
 </footer>
 
 </div>
